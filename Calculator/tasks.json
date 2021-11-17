@@ -1,0 +1,17 @@
+{
+     "version": "2.0.0",
+     "tasks": [
+         {
+             "label": "calculator",
+             "type": "shell",
+             "command": "g++",
+             "args": [
+                 "-g", "calc.cpp"
+             ],
+             "group": {
+                 "kind": "build",
+                 "isDefault": true
+             }
+         }
+     ]
+ }
